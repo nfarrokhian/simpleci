@@ -16,7 +16,7 @@ simpleci
 
 
 
-Calculates concentration indexes
+concentration curve generator and concentration index calculator
 
 
 * Free software: MIT license
@@ -26,12 +26,13 @@ Calculates concentration indexes
 Features
 --------
 
-* TODO
+* generates concentration curves from ordered data sets
+* caluculates concentration indices (ACI and RCI)
 
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+This package was created with Cookiecutter_ and `audreyr/cookiecutter-pypackage`_.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
