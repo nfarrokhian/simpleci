@@ -28,7 +28,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="Calculates concentration indexes",
+    description="generates concentration curves from ordered data and calculates concentration indices (ACI and RCI)",
     entry_points={
         'console_scripts': [
             'simpleci=simpleci.cli:main',
@@ -39,11 +39,11 @@ setup(
     long_description=readme + '\n\n' + history,
     include_package_data=True,
     keywords='simpleci',
-    name='simpleci',
+    name='simpleci-nfarrokhian',
     packages=find_packages(include=['simpleci', 'simpleci.*']),
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/nfarrokhian/simpleci',
-    version='0.1.0',
+    version='0.2.5',
     zip_safe=False,
 )
